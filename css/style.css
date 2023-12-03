@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Handjet:wght@600&family=Inter:wght@100&family=Lilita+One&family=Poor+Story&family=Red+Hat+Display:ital,wght@1,800&display=swap');
+
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #49338E;
+    text-align: center;
+}
+
+#purp-poster{
+
+margin: auto;
+width: 50%;
+height: 90%;
+background-color: #342565;
+/* position: absolute; */
+text-align: center;
+padding: 2.4%;
+
+
+}
+
+.people-img{
+
+    cursor: pointer;
+}
+
+#welcome-text{
+    /* padding-top: 2%; */
+    font-size: 1.5rem;
+    position: absolute;
+    top:5%;
+    left:25%;
+    text-align: left;
+    cursor: pointer;
+}
+
+#welcome-text2{
+    /* padding-top: 2%; */
+    font-size: 1.5rem;
+    position: absolute;
+    top:5%;
+    left:25%;
+    text-align: left;
+    cursor: pointer;
+}
+
+h1{
+
+    font-family: 'Red Hat Display', sans-serif ;
+    color: aliceblue;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+}
+
+#person5{
+position: absolute;    
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 6%;
+top:30%;
+left:50%
+
+
+
+}
+
+#person4{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    top:32%;
+    left:40%;
+    
+    
+}
+
+#person3{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    top:36%;
+    left: 60%;
+
+    
+    
+    }
+
+#person2{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    bottom: 1%;
+    right: 15%;
+        
+        
+}
+
+#person1{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    top: 25%;
+    left: 15%;
+    
+    
+}
+
+#logo{
+    position: absolute;
+    width: 30%;
+    bottom:5%;
+    left:40%;
+
+
+}
+
+#speech-bubble{
+    position: absolute;
+    width: 10%;
+    right: 35%;
+    bottom: 70%;
+
+
+}
+
+#qr-code{
+
+    position: absolute;
+    width: 12%;
+    left: 40%;
+    top: 2%;
+
+}
+
+
+
+/* .main-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 15%;
+margin-top: 3%;
+} */
+
+#secret-text{
+
+position: absolute;
+top: 80%;
+right: 25%;
+
+
+}
+
+@keyframes scaleImg{
+
+    0%{width:15%;}
+    50%{width: 30%;}
+    100%{width: 15%;}
+
+}
+
+.animate-img{
+
+    animation: scaleImg 5s;
+
+}
+
+#super-secret{
+position: absolute;
+width: 200px;
+height: 100px;
+top: 85%;
+right: 25%;
+background-color: lightblue;
+
+}
+
+#shiba{
+position: absolute;
+width: 200px;
+top: 25%;
+left: 15%;
+border-radius: 50%;
+
+
+}
+
+#popup{
+
+position: absolute;
+top: 7%;
+font-size: 12rem;
+
+
+}
+
+
+/* *********reference******* */
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 2%;
+}
+
+#change-bg-color{
+    color: brown;
+    margin-top: 3%;
+} */
